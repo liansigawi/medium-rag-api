@@ -11,8 +11,8 @@ app = FastAPI()
 LLMOD_API_KEY = os.environ.get("LLMOD_API_KEY")
 PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY")
 INDEX_NAME = "medium-rag"
-CHAT_MODEL = "ZYRANGG-gpt-5-mini"
-EMBEDDING_MODEL = "ZYRANGG-text-embedding-3-small"
+CHAT_MODEL = "NBUECSE-gpt-5-mini"
+EMBEDDING_MODEL = "NBUECSE-text-embedding-3-small"
 
 # Initialize clients (Vercel will provide the keys at runtime)
 if LLMOD_API_KEY and PINECONE_API_KEY:
